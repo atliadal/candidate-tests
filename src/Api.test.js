@@ -21,6 +21,15 @@ describe('API Caller', () => {
         .then(data => {
           expect(data).toBeDefined()
           expect(data.answer).toBeDefined()
+          expect(data.forced).toBeDefined()
+          expect(data.image).toBeDefined()
+        })
+      })
+
+      it('should validate the response of yes no API', () => {
+        return ask()
+        .then(data => {
+          expect(data.forced).toBe(false)
           expect(['yes','no']).toContain(data.answer);
         })
       })
