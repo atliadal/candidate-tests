@@ -1,0 +1,225 @@
+[
+  {
+    "description": "AAs a user, I shoudl be able to access API and verify the response of API",
+    "keyword": "Feature",
+    "name": "Verify the response of API",
+    "line": 1,
+    "id": "verify-the-response-of-api",
+    "tags": [],
+    "uri": "tests\\features\\api.feature",
+    "elements": [
+      {
+        "id": "verify-the-response-of-api;api-scenario",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "API Scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open API",
+            "match": {
+              "location": "tests\\testSpecifications\\apiSpec.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2156000000,
+              "error_message": "Error: self signed certificate in certificate chain\n    at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)\n    at emitNone (events.js:106:13)\n    at TLSSocket.emit (events.js:208:7)\n    at TLSSocket._finishInit (_tls_wrap.js:639:8)\n    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)\nFrom: Task: <anonymous>\n    at HttpClient.request (D:\\candidate-tests\\node_modules\\protractor-http-client\\lib\\http-client.ts:49:48)\n    at HttpClient.send (D:\\candidate-tests\\node_modules\\protractor-http-client\\lib\\http-client.ts:85:21)\n    at HttpClient.get (D:\\candidate-tests\\node_modules\\protractor-http-client\\lib\\http-client.ts:56:21)\n    at World.<anonymous> (D:\\candidate-tests\\tests\\testSpecifications\\apiSpec.js:5:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "api response should be correct",
+            "match": {
+              "location": "tests\\testSpecifications\\apiSpec.js:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests\\util\\hooks.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            },
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABQ8AAANLCAYAAADvoGvvAAAXnUlEQVR4nOzYsRHAIBDAsJD9d356zj0U0gSuvWZmPgAAAACAw387AAAAAAB4k3kIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAABI5iEAAAAAkMxDAAAAACCZhwAAAABAMg8BAAAAgGQeAgAAAADJPAQAAAAAknkIAAAAACTzEAAAAGC3YwcCAAAAAIL8rRcYoTACljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAljwEAAAAAJY8BAAAAACWPAQAAAAAVt4mCpLCPRWtAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "As a user, I should be able to open application and home page should have one text box and one button",
+    "keyword": "Feature",
+    "name": "Open Application and verify the presence of elements",
+    "line": 1,
+    "id": "open-application-and-verify-the-presence-of-elements",
+    "tags": [],
+    "uri": "tests\\features\\homePage.feature",
+    "elements": [
+      {
+        "id": "open-application-and-verify-the-presence-of-elements;as-a-user,-i-open-application-to-verify-the-presence-of-text-box-and-button",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "As a user, I open application to verify the presence of text box and button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open application",
+            "match": {
+              "location": "tests\\testSpecifications\\homePage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "\"textBox\" should be displayed",
+            "match": {
+              "location": "tests\\testSpecifications\\homePage.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "\"askToGodButton\" should be displayed",
+            "match": {
+              "location": "tests\\testSpecifications\\homePage.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests\\util\\hooks.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "open-application-and-verify-the-presence-of-elements;as-a-user,-i-open-application-and-verify-the-response-after-asking-to-the-god",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "As a user, I open application and verify the response after asking to the God",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open application",
+            "match": {
+              "location": "tests\\testSpecifications\\homePage.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I ask to the god",
+            "match": {
+              "location": "tests\\testSpecifications\\homePage.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "response should be correct",
+            "match": {
+              "location": "tests\\testSpecifications\\homePage.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests\\util\\hooks.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
