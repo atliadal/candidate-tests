@@ -1,4 +1,6 @@
 import ask from './Api';
+//export NODE_TLS_REJECT_UNAUTHORIZED=0;
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 /*
 *
@@ -13,6 +15,14 @@ import ask from './Api';
 
 
 describe('API Caller', () => {
+
+    it('should call yes no API', () => {
+        return ask()
+        .then(data => {
+          expect(data).toBeDefined()
+          expect(data.answer).toBeDefined()
+        })
+      })
 
 
 });
