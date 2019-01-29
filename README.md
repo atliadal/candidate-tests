@@ -11,7 +11,7 @@ Node.js is installed on the system
 # Running tests in Protractor
 
 1. Run `npm start` to start the application in development environment
-2. Run `npm e2eTest` to run the tests written in protractor
+2. Run `npm run e2e` to run the tests written in protractor
 
 # Running tests in Jest
 
