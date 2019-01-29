@@ -21,6 +21,7 @@ describe('API Caller', () => {
         .then(data => {
           expect(data).toBeDefined()
           expect(data.answer).toBeDefined()
+          expect(['yes','no']).toContain(data.answer);
         })
       })
 
