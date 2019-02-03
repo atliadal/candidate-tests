@@ -5,12 +5,13 @@ import App from './App';
 
 /*
 *
-* Missing tests
+* Tests, add the two listed test and minimum 3 more
 * -------------------------------------
 * - 'should display an input'
 * - 'should display a button'
+* - *
+* - *
+* - *
 * -------------------------------------
-*
-* Please add any other test that you think could be missing to adequately test the App
 *
 * */

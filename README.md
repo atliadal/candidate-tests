@@ -1,7 +1,7 @@
 
 # SaxoBank Test Automation Engineer Recruitment Test
 
-Thank you for taking the time to do our technical test. 
+Thank you for taking the time to do our recruitment test. 
 
 The steps to finish the test are
 
@@ -35,14 +35,13 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 More information on running Jest test can be found here [Getting started with Jest](https://jestjs.io/docs/en/getting-started)
 
 ### The tests
-For both test there are 1-2 statements that should be tested, but it up to you to write more test to make sure the application is behaving correctly
 
 #### [Api.test.js](src/Api.test.js)
-Start with `it should call YesNo API`, then make sure to test the return.
+Start with `it should call YesNo API`, and at least 2 more
   
 
 #### [App.test.js](src/App.test.js)
-Start with `should display an input` and `should display a button` then make sure all states of the application are test
+Start with `should display an input` and `should display a button` then at least 3 more.
 
 
 #### Thanks for your time, we look forward to hearing from you!
