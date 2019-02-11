@@ -1,4 +1,5 @@
 import ask from './Api';
+import { isMainThread } from 'worker_threads';
 
 /*
 *
@@ -15,6 +16,8 @@ import ask from './Api';
 
 
 describe('API Caller', () => {
-
-
+    it.only('should call YesNo API', () => {
+            
+    })
+    
 });
