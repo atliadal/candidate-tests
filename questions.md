@@ -30,9 +30,9 @@ It is also equally important to set the correct monitoring of these services, si
 ---
 - <strong>Component/Unit testing:</strong> Testing an isolated single unit or component, excluding all its dependencies. For example, testing the output of a single function when given a certain input, while mocking all its surrounding dependencies.
 - <strong>Integration testing:</strong> Usually being split into: 
-    <strong>Unit integration testing:<strong> where two or more distinct units or components are being tested together, in order to assess that they produce the correct result when called(e.g, two functions that use each other's return data in order to produce an output).
-    <strong>System integration testing:<strong> where two systems or services are being tested in order to assess they function and communicate correctly together(e.g, a Front-end app and an API or a client and a database).
-- <strong>E2E testing:<strong> A testing type that checks a specific business flow or user journey, from start till finish. It is a type that is being used in high-level testing and can serve a lot of different purposes such as:
+     <strong>Unit integration testing:</strong> where two or more distinct units or components are being tested together, in order to assess that they produce the correct result when called(e.g, two functions that use each other's return data in order to produce an output).
+     <strong>System integration testing:</strong> where two systems or services are being tested in order to assess they function and communicate correctly together(e.g, a Front-end app and an API or a client and a database).
+- <strong>E2E testing:</strong> A testing type that checks a specific business flow or user journey, from start till finish. It is a type that is being used in high-level testing and can serve a lot of different purposes such as:
     - Making sure that a user flow meets the end-user's needs,
     - Making sure that all acceptance criteria for a specific flow are met,
     - Potentially uncovering hidden acceptance criteria,
