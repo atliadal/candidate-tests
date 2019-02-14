@@ -6,8 +6,7 @@ _Please answer all questions in this markdown file below the answer line_
 ##### 1. How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
 
 ---
-Answer:
-I;ve spent around 5 hours. It is the first time I'm working with Jest so I took sometime in learning the basics of its API by reading the documentation. If I had more time, I would eliminate duplicate code with fixtures as I read that Jest supports such functionality.
+I've spent around 5 hours. It is the first time I'm working with Jest so I took sometime in learning the basics of its API by reading the documentation. If I had more time, I would eliminate duplicate code with fixtures as I read that Jest supports such functionality.
 
 ---
 
