@@ -6,31 +6,29 @@ _Please answer all questions in this markdown file below the answer line_
 ##### 1. How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
 
 ---
-I've spent around 5 hours. It is the first time I'm working with Jest so I took sometime in learning the basics of its API by reading the documentation. If I had more time, I would eliminate duplicate code with fixtures as I read that Jest supports such functionality.
+I've spent around 5 hours. It is the first time I'm working with Jest so I invested some time in learning the basics of its API by reading the documentation. If I had more time, I would eliminate duplicate code with fixtures as I read that Jest supports such functionality.
 
 ---
 
 ##### 2. What do you think is the most interesting trend in test automation?
 
 ---
-Answer: I believe the most interesting trend is the fact that test automation nowadays is more focused on lower level testing(unit, integration) as opposed to only automating high-level regression tests via the UI. The gains are getting quicker feedback on whether something has gone wrong and of course, test execution is much faster plus, tests are generally more robust. A lot of modern testing frameworks and libraries such as: Jest, Cypress, Mocha, Chai, Sinon etc, follow this paradigm.
+I believe the most interesting trend is the fact that test automation nowadays is more focused on lower level testing(unit, integration) as opposed to only automating high-level regression tests via the UI. The gains are getting quicker feedback on whether something has gone wrong and of course, test execution is much faster plus, tests are generally more robust. A lot of modern testing frameworks and libraries such as: Jest, Cypress, Mocha, Chai, Sinon etc, follow this paradigm.
 
 ---
 
 ##### 3. How would you implement test automation in an application with streaming data?
 
 ----
-Answer:
- I would focus a lot on testing the relevant APIs and how they communicate with each other to produce the final result of a working application. Depending on the ecosystem architecture(e.g, microservices), I would make sure that, at every commit/code change, the application's data flow is not broken so I would make sure that I have an acceptable amount of integration/contract tests.
- It is also equally important to set the correct monitoring of these services, since I would want to know if something goes wrong(e.g, if for whatever reason there is an absence of data when there shouldn't be any).
+I would focus a lot on testing the relevant APIs and how they communicate with each other to produce the final result of a working application. Depending on the ecosystem architecture(e.g, microservices), I would make sure that, at every commit/code change, the application's data flow is not broken so I would make sure that I have an acceptable amount of integration/contract tests.
+It is also equally important to set the correct monitoring of these services, since I would want to know if something goes wrong(e.g, if for whatever reason there is an absence of data when there shouldn't be any).
  
 ----
 
 ##### 4. What would you say is the main difference between, component test, integration test and e2e test?
    
 ---
-Answer:
-- Component/Unit testing: Testing an isolated single unit or component, excluding all its dependencies. For example, testing the output of a single function when given a certain input, while mocking all its surrounding dependencies.
+- <strong>Component/Unit testing:</strong> Testing an isolated single unit or component, excluding all its dependencies. For example, testing the output of a single function when given a certain input, while mocking all its surrounding dependencies.
 - Integration testing: Usually being split into: 
     Unit integration testing: where two or more distinct units or components are being tested together, in order to assess that they produce the correct result when called(e.g, two functions that use each other's return data in order to produce an output).
     System integration testing: where two systems or services are being tested in order to assess they function and communicate correctly together(e.g, a Front-end app and an API or a client and a database).
